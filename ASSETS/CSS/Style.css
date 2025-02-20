@@ -1,0 +1,50 @@
+
+/* HOME PAGE STARTS */
+
+
+.top-info{
+    background-color: #0c1844;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.opening-hours p{
+    display: inline;
+    padding-right: 25px;
+    color: grey;
+}
+
+.opening-hours p i{
+    color: #bc0136;
+    padding-right: 10px;
+}
+
+.opening-hours{
+    padding-left: 90px;
+}
+
+.social-bar{
+    padding-right: 30px;
+}
+
+.social-bar button{
+    background-color: transparent;
+    color: grey;
+    border: none;
+    padding: 0px 10px;
+}
+
+.social-bar i{
+    color: #bc0136;
+    padding-right: 15px;
+}
+
+.register-btn{
+    border-left: 2px solid #bc0136 !important;
+    transform: skew(10deg);
+}
+
+
+
+/* HOME PAGE ENDS */
