@@ -1,12 +1,14 @@
 
 /* HOME PAGE STARTS */
 
+/* nav-section STARTS */
 
 .top-info{
     background-color: #0c1844;
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
+    margin-bottom: 0;
 }
 
 .opening-hours p{
@@ -45,6 +47,191 @@
     transform: skew(10deg);
 }
 
+ /* NAV */
 
+#mobile-nav{
+    display: none;
+}
+
+.menu-display{
+    background-color: white;
+    width: 60%;
+    padding: 25px 20px;
+    justify-items: end;
+}
+
+.menu-display button{
+   float: right;
+   border: 0;
+   font-size: 25px;
+}
+
+#collapsibleNavbar ul li a{
+    color: white;
+}
+
+.dropdown-item{
+    color: black !important;
+}
+
+nav{
+    background-color: #0c1844;
+    padding: 0px 20px !important;
+    
+   
+}
+
+.ul-holder{
+    background-color: white;
+    width: 65%;
+    margin: 0px !important;
+    transform: skew(20deg);
+    padding: 20px 20px;
+   
+}
+
+.nav-item{
+    padding: 0px 7px;
+    color:grey;
+    font-size: 16px;
+    font-weight: 480;
+}
+
+.dropdown-menu{
+    transform: skew(-15deg);
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.ul-holder li a{
+    transform: skew(-20deg);
+}
+
+.navbar-brand h3{
+    color: #bc0136;
+    padding-bottom: 20px;
+    float: right !important;
+    font-weight: 700;
+
+}
+
+.navbar-brand h3 i{
+    font-size: 40px
+}
+
+
+.search-btn{
+    background-color: #bc0136;
+    color: white;
+    transform: skew(15deg);
+    border: 0px;
+    width: 35px;
+    height: 30px;
+   
+}
+
+.quote-btn{
+    background-color: #bc0136;
+    color: white;
+    transform: skew(15deg);
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+.search-btn:hover,
+.quote-btn:hover{
+    background-color: white;
+    color: black;
+    transition: .5s ease-in-out;
+}
+
+.quote-btn p{
+    transform: skew(-15deg);
+    font-weight: 500;
+}
+
+.search-btn i{
+    transform: skew(-15deg);
+    
+}
+
+
+
+
+
+
+/* nav-section ENDS */
 
 /* HOME PAGE ENDS */
+
+.container{
+    position: relative;
+    width: 50%;
+    padding: 30px;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color:black;
+    overflow: hidden;
+    width: 1005;
+    height: 0;
+    transition: .5s ease;
+   
+}
+
+.container:hover .overlay {
+   height: 100%;   
+}
+
+.container:hover{
+    color: white;
+    transition: .5s ease;
+}
+
+.container p{
+   position: relative;
+   z-index: 8;
+   
+}
+
+@media screen and (max-width : 778px) {
+
+    #mobile-nav{
+        display: inherit;
+    }
+
+    nav{
+        
+        padding: 0px 0px !important;
+        margin: 0;
+        
+       
+    }
+
+    #desktop-nav{
+        display: none;
+    }
+
+    .top-info{
+        display: none;
+    }
+
+
+}
+
+
+
