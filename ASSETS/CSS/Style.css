@@ -160,11 +160,169 @@ nav{
 }
 
 
-
-
-
-
 /* nav-section ENDS */
+
+.row{
+    width:100%;
+    overflow-y: hidden;
+}
+
+/* hero Starts */
+
+.hero-section{
+
+    padding:0px 50px ;
+    height: 90vh;
+    background-image: url(../IMAGES/gym-bg2.jpg);
+    background-repeat: no-repeat;
+    position: relative;  
+   
+}
+
+.bg-overylay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero-content{
+    position: relative;
+    z-index: 9;
+    color:white;
+    padding-top: 90px;
+    
+  
+}
+
+.hero-content h3{
+    color: #bc0136;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.hero-content h2{
+    font-size: 57px;
+    font-weight:860;
+    padding:25px 0px;
+}
+
+.hero-content p{
+    padding: 5px 0px;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.hero-btn{
+    width: 150px;
+    height:50px;
+    background-color: #0c1844;
+    color: white;
+    border: 0px;
+    margin-right: 15px;
+    margin-top: 10px;
+
+}
+
+.hero-btn2{
+    background-color: #bc0136;
+}
+
+.hero-image{
+    position: absolute;
+    bottom: 0px;
+}
+
+.hero-image img{
+
+    width:100%;
+    height: fit-content;
+   
+   
+}
+
+/* hero-section Ends */
+
+
+/* about-section STARTS */
+
+.about-section{
+    padding: 70px 50px;
+    background-color: #0c1844;
+    color: white;
+}
+
+.about-section h5{
+    color: #bc0136;
+}
+
+.about-section h2{
+    font-size: 42px;
+    font-weight: 800;
+    padding: 15px 0px;
+}
+
+.about-content p{
+    color: grey;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.motives-content{
+    margin-top: 20px;
+}
+
+.motives-info{
+    display:none;
+}
+
+.motives-btn.active{
+    background-color: #bc0136;
+   
+}
+
+.motives-btn.active p{
+    color:white;
+}
+
+.motive-list{
+    display: flex;
+    border: 0px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin: 15px 0px;
+    padding: 20px 0px;
+    height: 170px;
+    
+}
+
+.motive-list i{
+    padding-top: 25px;
+    font-size: 45px;
+    padding-right: 20px;
+}
+
+.motives-btn{
+    background-color: white;
+    width: 140px;
+    height: 45px;
+    transform: skew(15deg);  
+    border: 0px;
+    margin: 15px 10px 15px 0px;
+}
+
+.motives-btn p{
+    transform: skew(-15deg);
+    padding-top: 7px;
+    color: black;
+    
+}
+
+
+/* about-section Ends */
 
 /* HOME PAGE ENDS */
 
